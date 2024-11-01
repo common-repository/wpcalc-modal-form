@@ -1,0 +1,68 @@
+.postbox{
+	max-width:95%;
+}
+
+.smw-admin{	
+	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-weight: 500 !important;		
+	overflow: auto;
+	color:#000;
+	max-width:100%;
+
+}
+
+.smw-admin input[type=text],.smw-admin input[type=tel],.smw-admin input[type=number], .smw-admin input[type=date], .smw-admin select {
+	background: #E0FFFB;
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	border: 1px solid #cecece;
+	padding: 10px;
+	width: 80%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 2px;
+	}	
+.smw-admin select {height:40px;}
+	
+.smw-admin-col {
+position:relative;
+width: 100%;
+float: left;	
+	min-height: 1px;	
+	white-space: normal;
+	padding-bottom: 15px;
+	
+	}  
+.smw-admin-col-1, .smw-admin-col-2, .smw-admin-col-3, .smw-admin-col-4, .smw-admin-col-5, .smw-admin-col-6, .smw-admin-col-7, .smw-admin-col-8, .smw-admin-col-9, .smw-admin-col-10, .smw-admin-col-11, .smw-admin-col-12 {
+	float: left;	
+	min-height: 1px;	
+	padding-top: 15px;
+	white-space: normal;
+	display: inline-block;
+  vertical-align: middle;
+	}    
+.smw-admin-col-12 {width: 100%;}
+.smw-admin-col-11 {width: 91.66666666666666%;}
+.smw-admin-col-10 {width: 83.33333333333334%;}
+.smw-admin-col-9 {width: 75%;}
+.smw-admin-col-8 {width: 66.66666666666666%;}
+.smw-admin-col-7 {width: 58.333333333333336%;}
+.smw-admin-col-6 {width: 50%;}
+.smw-admin-col-5 {width: 41.66666666666667%;}
+.smw-admin-col-4 {width: 33.33333333333333%;}
+.smw-admin-col-3 {width: 25%;}
+.smw-admin-col-2 {width: 16.666666666666664%;}
+.smw-admin-col-1 {width: 8.333333333333332%;}
+
+.right {
+	text-align: right;
+}
+
+.adminblock{
+	cursor:pointer !important;
+	 border-bottom: 2px solid maroon; 
+}

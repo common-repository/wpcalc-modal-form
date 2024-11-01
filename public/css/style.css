@@ -1,0 +1,336 @@
+
+/* ========== Modal window ==========  */
+
+.overlaywpcalcmf {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 8888;
+	background-color: rgba(0, 0, 0, 0.7);
+	opacity: 1;
+	position: fixed; /* фиксированное поцизионирование */
+	cursor: default; /* тип курсара */
+	display: none;
+	width: 100%; 
+	height: 100%; /* размером во весь экран */
+	overflow: auto;
+	}
+.wpcalcmf {
+	line-height: 1.5;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 999999999;	
+	display: none;
+	position: absolute;	
+	margin: 0 auto;	
+	height: auto;	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;	
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+	-ms-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+	-o-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+	opacity: 1;
+	}
+
+.wpcalcmfclose {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 0;
+	width: 28px;
+	height: 28px;
+	border: 2px solid #ccc;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+	background-color: rgba(61, 61, 61, 0.8);
+	-webkit-box-shadow: 0px 0px 10px #000;
+	-moz-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 24px;
+	-webkit-transition: all ease .8s;
+	-moz-transition: all ease .8s;
+	-ms-transition: all ease .8s;
+	-o-transition: all ease .8s;
+	transition: all ease .8s;
+	cursor:pointer;
+	}
+.wpcalcmfclose:before {
+	color: rgba(255, 255, 255, 0.9);
+	content: "X";
+	text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+	font-size: 24px;	
+}
+.wpcalcmfclose:hover {
+	background-color: rgba(252, 20, 0, 0.8);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);    
+}
+
+.wpcalcmf_botton_left {
+	display:block;
+	left:-4px;
+	top:54%;
+	position:fixed;
+	background:#999999;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	-webkit-transform-origin: left top 0;
+	-moz-transform-origin: left top 0;
+	-o-transform-origin: left top 0;
+	-moz-transform-origin: left top 0;
+	transform-origin: left top 0;
+	
+
+}
+
+.wpcalcmf_botton_right {
+	display:block;
+	right:-4px;
+	top:54%;
+	position:fixed;
+	background:#999999;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: right top 0;
+	-moz-transform-origin: right top 0;
+	-o-transform-origin: right top 0;
+	-moz-transform-origin: right top 0;
+	transform-origin: right top 0;
+
+}
+
+.wpcalcmf_botton_top {
+	display:block;
+	top:-4px;
+	left:46%;
+	position:fixed;
+	background:#999999;
+
+}
+
+.wpcalcmf_botton_bottom {
+	display:block;
+	bottom:-4px;
+	left:46%;
+	position:fixed;
+	background:#999999;
+
+}
+
+.wpcalcmf_botton {
+	text-decoration: none;
+	color: white;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+  -ms-border-radius: 4px;
+	border-radius: 4px;
+	padding: 14px 14px 12px;12px;
+	line-height: 14px;
+	float: none;
+	text-shadow: none;
+	cursor:pointer;
+	z-index: 9999;
+
+}
+
+.wpcalcmf_botton:hover {
+	padding: 14px 14px 12px;12px;
+	line-height: 18px;
+	float: none;
+	cursor:pointer;
+}
+
+.wpcalcmf_botton_nonedisplay {
+	display:none;
+}
+
+.wpcalcmf_link a {
+	color: white;
+	text-decoration: none;	
+}
+.wpcalcmf_link a:hover {
+	background:#999999;
+}
+
+/* ========== Pop-up window ==========  */
+
+.wpcmffeed{
+	position : fixed; 
+	z-index: 9999;	
+	top : 100%; 
+	left : 100%;			
+	-moz-transition:margin 0.3s linear;	
+	-o-transition:margin 0.3s linear;	
+	-webkit-transition:margin 0.3s linear;	
+	-ms-transition:margin 0.3s linear;	
+	transition:margin 0.3s linear;		
+	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Tahoma, sans-serif;	
+	-webkit-border-radius: 15px 0 0 0;
+	-moz-border-radius: 15px 0 0 0;
+	-ms-border-radius: 15px 0 0 0;
+	-o-border-radius: 15px 0 0 0;
+	border-radius: 15px 0 0 0;
+	-webkit-box-shadow: 0px 0px 10px #000;
+	-moz-box-shadow: 0px 0px 10px #000;
+	box-shadow: 0px 0px 10px #000;
+}
+.wpcmffeed:hover{	
+	-moz-transition:margin 0.3s linear;	
+	-o-transition:margin 0.3s linear;	
+	-webkit-transition:margin 0.3s linear;	
+	-ms-transition:margin 0.3s linear;	
+	transition:margin 0.3s linear;	
+}
+
+.wpcmffeedButton input[type=button]{	
+	color: #FFFFFF !important;
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-o-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-ms-border-radius: 0px 0px 10px 10px;			
+	margin-bottom: 10px;
+	border: none;	
+	outline: none;
+	width: auto;	
+	text-shadow: -1px -1px 0px #333;
+	text-decoration: none;
+	padding: 10px 20px;	
+	opacity: 0.85;
+	font-size: 13px;	
+}
+
+	
+
+/* ========== Form's style ==========  */
+.wpcmf {		
+	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Tahoma, sans-serif;		
+	font-weight: normal;
+	font-weight: 600 !important;
+	font-size: 12px !important;
+	
+}	
+	
+	
+.wpcmf h2{	
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.3);
+	font:22px 'Trebuchet MS', Helvetica, sans-serif;
+	}
+
+	
+.wpcmf input[type=button]{
+	display: inline-block;
+	color: #f3f3f3 !important;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border: none;
+	background: #444;
+	outline: none;
+	width: auto;
+	float: none;
+	text-shadow: -1px -1px 0px #333;
+	text-decoration: none;
+	padding: 10px 20px;	
+	opacity: 0.85;
+	font-size: 13px;
+	-webkit-appearance: none;
+}
+
+.wpcmf input [type=button]:hover {
+	opacity: 1;
+	cursor: pointer;
+	background: #444 !important;
+}
+
+.wpcmf input[type=text],.wpcmf textarea,.wpcmf select{
+	background: #fcfcfc;
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	border: 1px solid #cecece;
+	padding: 10px;
+	display: block;
+	font-size: 15px;
+	line-height: 18px;
+	color: #555;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin: 0 0 13px 0;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 13px;
+	}
+	
+.wpcalcmf textarea{
+	height:120px;
+}
+
+.wpcmf input[type="radio"] {   
+	 display:none;
+}
+
+.wpcmf label {
+	display: block;
+	float: left;
+	padding: 6px 11px;	
+	text-decoration: none;
+	color: #555555;
+	border-bottom: 1px dashed #a03717;
+	cursor: pointer;
+
+}
+
+.wpcmf input[type="radio"]:checked + label {
+    background-color: #555555;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: white;
+	outline: none;
+}
+
+.wpcmf input[type="checkbox"] {
+	border-radius: 4px;
+	height: 15px;
+	width: 15px;
+}
+
+
+/* ========== For mobile ==========  */
+
+@media only screen and (max-width: 480px) {
+.wpcalcmf_botton, .wpcmffeed {
+	display: none;
+	}
+}

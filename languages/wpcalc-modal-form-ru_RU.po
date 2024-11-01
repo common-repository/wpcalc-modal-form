@@ -1,0 +1,545 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wpcalc_Modal_Form v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-12-16 08:27+0200\n"
+"Last-Translator: Dimy4\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n"
+"+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wpcalc-modal-form
+msgid "Setting forms"
+msgstr "Настройка Форм"
+
+# @ wpcalc-modal-form
+msgid "Modal"
+msgstr "Модальное"
+
+# @ wpcalc-modal-form
+msgid "Popup"
+msgstr "Всплывающее"
+
+# @ wpcalc-modal-form
+msgid "Page"
+msgstr "Страница"
+
+# @ wpcalc-modal-form
+msgid "Calculate"
+msgstr "Калькулятор"
+
+# @ wpcalc-modal-form
+msgid "Configure form fields in a modal window"
+msgstr "Настройка полей формы в модальном окне"
+
+# @ wpcalc-modal-form
+msgid "Title text"
+msgstr "Текст Заголовка"
+
+# @ wpcalc-modal-form
+msgid "Show"
+msgstr "Отобразить"
+
+# @ wpcalc-modal-form
+msgid "Hide"
+msgstr "Скрыть"
+
+# @ wpcalc-modal-form
+msgid "The text over form"
+msgstr "Текст над формой"
+
+# @ wpcalc-modal-form
+msgid "Field comments"
+msgstr "Поле комментарии"
+
+# @ wpcalc-modal-form
+msgid "Field e-mail"
+msgstr "Поле почта"
+
+# @ wpcalc-modal-form
+msgid "Field name"
+msgstr "Поле имя"
+
+# @ wpcalc-modal-form
+msgid "Field phone"
+msgstr "Поле телефон"
+
+# @ wpcalc-modal-form
+msgid "Text of the submit button"
+msgstr "Текст кнопки отправки"
+
+# @ wpcalc-modal-form
+msgid "Setting the display of the feedback"
+msgstr "Настройка отображения кнопки"
+
+# @ wpcalc-modal-form
+msgid "Text buttons"
+msgstr "Текст Кнопки"
+
+# @ wpcalc-modal-form
+msgid "Location buttons"
+msgstr "Расположение кнопки"
+
+# @ wpcalc-modal-form
+msgid "Right"
+msgstr "Справа"
+
+# @ wpcalc-modal-form
+msgid "Left"
+msgstr "Слева"
+
+# @ wpcalc-modal-form
+msgid "Top"
+msgstr "Вверху"
+
+# @ wpcalc-modal-form
+msgid "Bottom"
+msgstr "Внизу"
+
+# @ wpcalc-modal-form
+msgid "Color button"
+msgstr "Цвет кнопки"
+
+# @ wpcalc-modal-form
+msgid "choose color"
+msgstr "подобрать цвет"
+
+# @ wpcalc-modal-form
+msgid "Setting alarm text"
+msgstr "Настройка текстов ошибок"
+
+# @ wpcalc-modal-form
+msgid "Filled review"
+msgstr "Незаполненный отзыв"
+
+# @ wpcalc-modal-form
+msgid "Not Specified name"
+msgstr "Не указанно имя"
+
+# @ wpcalc-modal-form
+msgid "Not Specified Email"
+msgstr "Не указанно почта"
+
+# @ wpcalc-modal-form
+msgid "Unknown phone"
+msgstr "Не указан телефон"
+
+# @ wpcalc-modal-form
+msgid "Styles"
+msgstr "Стили"
+
+# @ wpcalc-modal-form
+msgid "Text size over form"
+msgstr "Размер текста над формой"
+
+# @ wpcalc-modal-form
+msgid "Text color error"
+msgstr "Цвет текста ошибки"
+
+# @ wpcalc-modal-form
+msgid "Text size error"
+msgstr "Размер текста ошибки"
+
+# @ wpcalc-modal-form
+msgid "Text color Thanks"
+msgstr "Цвет текста Спасибо"
+
+# @ wpcalc-modal-form
+msgid "Text Size Thank"
+msgstr "Размер текста Спасибо"
+
+# @ wpcalc-modal-form
+msgid "Sending mail"
+msgstr "Отправка на почту"
+
+# @ wpcalc-modal-form
+msgid "Text after sending a message"
+msgstr "Текст после отправки сообщения"
+
+# @ wpcalc-modal-form
+msgid "Post subject"
+msgstr "Заголовок сообщение"
+
+# @ wpcalc-modal-form
+msgid "Close window through"
+msgstr "Закрыть окно через"
+
+# @ wpcalc-modal-form
+msgid "Send to e-mail"
+msgstr "Отправлять на почту"
+
+# @ wpcalc-modal-form
+msgid "enter multiple recipients can be separated by commas"
+msgstr "через запятую можно ввести несколько получателей"
+
+# @ wpcalc-modal-form
+msgid "seconds"
+msgstr "секунд"
+
+# @ wpcalc-modal-form
+msgid "Settings"
+msgstr "Настройки"
+
+# @ wpcalc-modal-form
+msgid "This message was sent a form of feedback from the site"
+msgstr "Это сообщение отправлено формой обратной связи с сайта"
+
+# @ wpcalc-modal-form
+msgid "Calculators for Wordpress on"
+msgstr "Калькуляторы для Wordpress на"
+
+# @ wpcalc-modal-form
+msgid "Save"
+msgstr "Сохранить"
+
+# @ wpcalc-modal-form
+msgid "Settings saved"
+msgstr "Настроки сохранены"
+
+# @ wpcalc-modal-form
+msgid ""
+"Thank you for the installation of the plugin Wpcalc Modal Form. We hope our "
+"cooperation will be productive. Functionality of this plugin can be "
+"supplemented with online calculator to your parameters. Write to us - "
+"ad@wpcalc.com. Our website - wpcalc.com"
+msgstr ""
+"Спасибо за установку плагина. Надеемся наше сотрудничество будет "
+"продуктивным. Функционал данного плагина может быть дополнен онлайн "
+"калькулятором с Вашими параметрами.  Пишите нам - ad@wpcalc.com. Наш сайт - "
+"wpcalc.com"
+
+# @ wpcalc-modal-form
+msgid "Include form"
+msgstr "Включить Форму"
+
+# @ wpcalc-modal-form
+msgid "Form"
+msgstr "Форма"
+
+# @ wpcalc-modal-form
+msgid "Form on Page"
+msgstr "Форма на странице"
+
+# @ wpcalc-modal-form
+msgid "General"
+msgstr "Основные"
+
+# @ wpcalc-modal-form
+msgid "Including the form on the page"
+msgstr "Включить Форму на странице"
+
+# @ wpcalc-modal-form
+msgid "Configure form fields in a page"
+msgstr "Настройки формы на странице"
+
+# @ wpcalc-modal-form
+msgid "Width form on page"
+msgstr "Ширина формы на странице"
+
+# @ wpcalc-modal-form
+msgid "Field Name"
+msgstr "Поле Имя"
+
+# @ wpcalc-modal-form
+msgid "Field E-mail"
+msgstr "Поле E-mail"
+
+# @ wpcalc-modal-form
+msgid "Field Phone"
+msgstr "Поле Телефон"
+
+# @ wpcalc-modal-form
+msgid "Field Review"
+msgstr "Поле Комментарий"
+
+# @ wpcalc-modal-form
+msgid "To insert a form on the page or post using shortcode"
+msgstr "Чтобы вставить форму на страницу или в запись используйет шорткод"
+
+# @ wpcalc-modal-form
+msgid "Setting Display Forms"
+msgstr "Настройка отображения форм"
+
+# @ wpcalc-modal-form
+msgid "Mask phone"
+msgstr "Маска телефона"
+
+# @ wpcalc-modal-form
+msgid ""
+"Plugin Wpcalc Modal Form supports the creation of any calculator to the "
+"settings of the admin panel site and sent to the specified e-mail."
+msgstr ""
+"Плагин Wpcalc Modal Form поддерживает создание любых калькуляторов с "
+"настройками из админпанели сайта и отправкой на указанную почту."
+
+# @ wpcalc-modal-form
+msgid "If you need an online calculator to the website, you can order the development of plug-in calculator we ad@wpcalc.com."
+msgstr "Если Вам нужен онлайн калькулятор на сайт, Вы можете заказать разработку плагина калькулятора у нас ad@wpcalc.com."
+
+# @ wpcalc-modal-form
+msgid ""
+"An example of a calculator-based plugin Wpcalc Modal Form can look at - "
+"http://wpcalc.com/plugin-osago-ukraine/"
+msgstr ""
+"Пример работы калькулятора на базе плагина Wpcalc Modal Form можете "
+"посмотреть по адресу - http://wpcalc.com/plugin-osago-ukraine/"
+
+# @ wpcalc-modal-form
+msgid "Calculator"
+msgstr "Калькулятор"
+
+# @ wpcalc-modal-form
+msgid "Feedback"
+msgstr "Напишите нам"
+
+# @ wpcalc-modal-form
+msgid "Feedback form"
+msgstr "Форма обратной связи"
+
+# @ wpcalc-modal-form
+msgid "Write to us and we will contact you shortly"
+msgstr "Напишите нам и мы свяжемся с Вами в ближайшее время"
+
+# @ wpcalc-modal-form
+msgid "Write a Review"
+msgstr "Напишите Комментарий"
+
+# @ wpcalc-modal-form
+msgid "your name"
+msgstr "Ваше имя"
+
+# @ wpcalc-modal-form
+msgid "your phone"
+msgstr "Ваш телефон"
+
+# @ wpcalc-modal-form
+msgid "to send"
+msgstr "Отправить"
+
+# @ wpcalc-modal-form
+msgid "Setting the display of the modal window"
+msgstr "Настройка отображения модального окна"
+
+# @ wpcalc-modal-form
+msgid "modal window"
+msgstr "модальное окно"
+
+# @ wpcalc-modal-form
+msgid "feedback form"
+msgstr "форма для обратной связи"
+
+# @ wpcalc-modal-form
+msgid "Include Calculator"
+msgstr "Включить калькулятор"
+
+# @ wpcalc-modal-form
+msgid "Settings for the Сalculator"
+msgstr "Установки для калькулятора"
+
+# @ wpcalc-modal-form
+msgid "Specify the path to calculator's file (html, php)"
+msgstr "Укажите путь к файлу калькулятора (html, php)"
+
+# @ wpcalc-modal-form
+msgid "Specify the path to calculator's javascript file (js)"
+msgstr "Укажите путь к файлу скрипта калькулятора (js)"
+
+# @ wpcalc-modal-form
+msgid "Specify the path to calculator's style file (css)"
+msgstr "Укажите путь к файлу стиля калькулятора (css)"
+
+# @ wpcalc-modal-form
+msgid "Download or order files for the calculator you can online"
+msgstr "Скачать или заказать файлы для калькулятора вы можете на сайте"
+
+# @ wpcalc-modal-form
+msgid "Wordpress Plugins from WpCalc.com"
+msgstr "Wordpress Плагины от WpCalc.com"
+
+# @ wpcalc-modal-form
+msgid "Countdown with cookies"
+msgstr "Таймер обратного отсчета с куками"
+
+# @ wpcalc-modal-form
+msgid "Loan calculators"
+msgstr "Кредитные калькуляторы"
+
+# @ wpcalc-modal-form
+msgid "Сar insurance for Russia"
+msgstr "Страхование ОСАГО Россия"
+
+# @ wpcalc-modal-form
+msgid "Car insurance for Ukraine"
+msgstr "Страхование ОСАГО Украина"
+
+# @ wpcalc-modal-form
+msgid "http://wpcalc.com/en"
+msgstr "http://wpcalc.com/"
+
+# @ wpcalc-modal-form
+msgid "Width feedback unit"
+msgstr "Ширина блока обратной связи"
+
+# @ wpcalc-modal-form
+msgid "Height feedback unit"
+msgstr "Высота блока обратной связи"
+
+# @ wpcalc-modal-form
+msgid "The text over calculator"
+msgstr "Текст над калькулятором"
+
+# @ wpcalc-modal-form
+msgid "Our mail"
+msgstr "Наша почта"
+
+# @ wpcalc-modal-form
+msgid "Hi, I am Dimy4"
+msgstr "Привет, Я Dimy4"
+
+# @ wpcalc-modal-form
+msgid "I spent a lot of time developing this plugin."
+msgstr "Я потратил много времени на разработку этого плагина. "
+
+# @ wpcalc-modal-form
+msgid "So if you like it, then buy me a cup of coffee."
+msgstr "Поэтому если он вам нравится, то купите мне чашку кофе."
+
+# @ wpcalc-modal-form
+msgid "Text To send"
+msgstr "Текст Отправить"
+
+# @ wpcalc-modal-form
+msgid "Configure form fields in a pop-up window"
+msgstr "Настройка полей формы в всплывающем окне"
+
+# @ wpcalc-modal-form
+msgid "Configure form fields in a calculator"
+msgstr "Настройка полей формы в калькулятор"
+
+# @ wpcalc-modal-form
+msgid "If you set one of your plugins, here you can set up a form for the calculator"
+msgstr "Если у вас установлен один из наших плагинов, здесь вы можете настроить форму для калькулятора"
+
+# @ wpcalc-modal-form
+msgid "Our plugins"
+msgstr "Наши плагины"
+
+# @ wpcalc-modal-form
+msgid "Color error"
+msgstr "Цвет ошибки"
+
+# @ wpcalc-modal-form
+msgid "Required rule"
+msgstr "Обязательная проверка"
+
+# @ wpcalc-modal-form
+msgid "Enable/disable"
+msgstr "Вкл/выкл"
+
+# @ wpcalc-modal-form
+msgid "Setting the appearance of a modal window"
+msgstr "Установка появление модального окна"
+
+# @ wpcalc-modal-form
+msgid "Show/Hide"
+msgstr "Вкл/выкл"
+
+# @ wpcalc-modal-form
+msgid "While loading"
+msgstr "При загрузке"
+
+# @ wpcalc-modal-form
+msgid "When scroll the window"
+msgstr "При прокрутке окна"
+
+# @ wpcalc-modal-form
+msgid "When you close the window"
+msgstr "При закрытии окна"
+
+# @ wpcalc-modal-form
+msgid "Cookies days"
+msgstr "Дней в куках"
+
+# @ wpcalc-modal-form
+msgid "Timer"
+msgstr "Tаймер"
+
+# @ wpcalc-modal-form
+msgid "Style of modal window"
+msgstr "Стиль модального окна"
+
+# @ wpcalc-modal-form
+msgid "Width"
+msgstr "Ширина"
+
+# @ wpcalc-modal-form
+msgid "Color"
+msgstr "Цвет"
+
+# @ wpcalc-modal-form
+msgid "Padding"
+msgstr "Отступ"
+
+# @ wpcalc-modal-form
+msgid "Border"
+msgstr "Граница"
+
+# @ wpcalc-modal-form
+msgid "Border color"
+msgstr "Цвет границы"
+
+# @ wpcalc-modal-form
+msgid "Indent from top"
+msgstr "Отступ сверху"
+
+# @ wpcalc-modal-form
+msgid "Show modal window"
+msgstr "Показывать модальное окно"
+
+# @ wpcalc-modal-form
+msgid "Background color"
+msgstr "Фон"
+
+# @ wpcalc-modal-form
+msgid "Padding Form"
+msgstr "Отступ формы"
+
+# @ wpcalc-modal-form
+msgid "Style of popup window"
+msgstr "Стиль всплывающего окна"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
